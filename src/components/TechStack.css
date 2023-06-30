@@ -1,0 +1,28 @@
+.tech-stack-container {
+    display: flex;
+    align-items: center;
+}
+
+.heading {
+    margin-top:20px
+}
+.icon-container {
+    width: 75%;
+    height:auto;
+    /* background-color: rgba(54, 236, 21, 0.315); */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10px;
+    justify-items: center;
+    margin: auto;
+  }
+  
+  .icon-container img {
+    width: auto;
+    height: auto;
+  }
+  @media (max-width: 768px) {
+    .icon-container {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+  }
