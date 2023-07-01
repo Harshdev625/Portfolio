@@ -1,0 +1,37 @@
+.project-handler {
+    width: 60vw;
+    height: 60vh;
+    margin: auto auto 2vh auto;
+    background-color: rgba(255, 255, 255, 0.315);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.Project-Overview {
+    height: 40vh;
+    width: 40vw;
+    border-radius: 7.5px;
+    margin-left: -5vw;
+
+}
+
+.Project-detail {
+    display: inline;
+    margin-left: 15px;
+}
+
+.website-display {
+    display: inline;
+    height: 5vh;
+    cursor: pointer;
+    margin: 2px 5px;
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.5);
+}

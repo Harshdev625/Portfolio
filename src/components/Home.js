@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import './Home.css';
+import React, { useState, useEffect } from "react";
+import "./Home.css";
 const Home = () => {
-  const array = ['Student', 'Web Developer', 'Competitive Programmer'];
+  const array = ["Student", "Web Developer", "Competitive Programmer"];
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -22,11 +22,9 @@ const Home = () => {
         <p>
           My name is Harsh Dev, I'm a student at ABV-IIITM, Gwalior. Currently,
           I am pursuing an Integrated B.Tech and M.Tech in Information
-          Technology. Additionally, I am an experienced Full-Stack Web
-          Developer, I build websites from the ground up.
+          Technology. I have keen interest in Web Development and Competitive Programming.
         </p>
       </div>
-      
     </>
   );
 };

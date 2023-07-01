@@ -1,26 +1,30 @@
-button{
-    display:grid;
-    height:5vh;
-    width:2.5vw;
+.button-style {
+    display: grid;
+    height: 5vh;
+    width: 2.5vw;
     border-radius: 50%;
     border-style: solid;
     border-color: #fff;
-    margin-left:30px;
+    margin-left: 30px;
     margin-bottom: 10px;
     cursor: pointer;
 }
-.btn1{
- background-color: #2A93EC;
+
+.btn1 {
+    background-color: #2A93EC;
 }
-.btn2{
- background-color: #7952B3;
-    
+
+.btn2 {
+    background-color: #7952B3;
+
 }
-.btn3{
- background-color: #16161A;
-    
+
+.btn3 {
+    background-color: #16161A;
+
 }
-.btn4{
- background-color: #004642;
-    
+
+.btn4 {
+    background-color: #004642;
+
 }
