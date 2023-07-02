@@ -1,3 +1,10 @@
-.Textcolor{
-    color:white;
+*{
+    box-sizing: border-box;
+}
+.Textcolor {
+    color: white;
+}
+.App{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }

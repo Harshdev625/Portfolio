@@ -1,7 +1,7 @@
-import React from 'react'
+import './App.css';
+import React, { useState } from 'react';
 import ParticlesBg from 'particles-bg'
 import Navbar from './components/Navbar';
-import './App.css';
 import TechStack from './components/TechStack';
 import Home from './components/Home';
 import ColorToggler from './components/ColorToggler';
@@ -10,14 +10,19 @@ import Project from './components/Project';
 import GetInTouch from './components/GetInTouch';
 
 function App() {
+  const [bgColor, setBgColor] = useState('#004642');
+
+  const handleColorChange = (color) => {
+    setBgColor(color);
+  };
   return (
     <>
-      <div className="Textcolor">
+      <div className="Textcolor App"  style={{ backgroundColor: bgColor }}>
         <Navbar />
+        <ColorToggler onColorChange={handleColorChange} />
+        <GetInTouch/>
         <Home />
         <TechStack />
-        <ColorToggler />
-        <GetInTouch/>
         <Project/>
         <Contact />
         <ParticlesBg type="cobweb" bg={true} />

@@ -1,12 +1,12 @@
 .button-style {
     display: grid;
-    height: 5vh;
-    width: 2.5vw;
+    height: 2.5em;
+    width: 2.5em;
     border-radius: 50%;
     border-style: solid;
     border-color: #fff;
-    margin-left: 30px;
-    margin-bottom: 10px;
+    margin-left: 0.5em;
+    margin-bottom: 1em;
     cursor: pointer;
 }
 
@@ -27,4 +27,9 @@
 .btn4 {
     background-color: #004642;
 
+}
+
+.shifting{
+    top: 15em;
+    position:fixed;
 }

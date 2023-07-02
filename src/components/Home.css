@@ -1,0 +1,42 @@
+.brief-detail{
+    margin-top:10px;
+    height:100vh;
+    width:75vw;
+    margin-left: 20vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.my-name{
+    font-size:64px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.textstyle1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.textsytle2{
+    width:40vw;
+    margin:20px 0px;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Resume-link{
+    text-decoration: none;
+    font-size: larger;
+    color:white;
+    padding:0px;
+    word-spacing: 5px;
+}
+
+.Resume-button{
+    background-color: black;
+    height:8vh;
+    border: 2px solid white;
+    width:15vw;
+}
+
+
+  

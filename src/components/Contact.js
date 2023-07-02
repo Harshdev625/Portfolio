@@ -1,9 +1,10 @@
 import React from "react";
-
+import './Contact.css'
 const Contact = () => {
   return (
-    <div className="container">
-      <form>
+    <>
+      <h3 className="text-center">Let's get in touch</h3>
+      <form className="container">
         <div className="mb-3">
           <label htmlFor="name" className="form-label">
             Name
@@ -28,10 +29,10 @@ const Contact = () => {
           <input type="text" className="form-control" id="message" />
         </div>
         <button type="submit" className="btn btn-primary grow">
-          Submit
+          Send
         </button>
       </form>
-    </div>
+      </>
   );
 };
 

@@ -9,7 +9,7 @@ import CSS from "../Image/CSS.png";
 import Projects from "../Image/Projects.png";
 const Project = () => {
   return (
-    <div className="container">
+    <div className="container ">
       <div className="container tech-stack-container">
         <img className="" src={Projects} alt="Projects" />
         <h1>Project</h1>

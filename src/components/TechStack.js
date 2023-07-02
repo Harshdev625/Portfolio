@@ -17,34 +17,36 @@ import Mongodb from "../Image/mongodb.png";
 import Markdown from "../Image/MarkDown.png";
 import MySql from "../Image/mysql.png";
 import Express from "../Image/express.png";
-import { ReactComponent as SvgIcon } from "../Image/stackoverflow_icon.svg";
+import Tech1 from "../Image/Tech1.png";
 import "./TechStack.css";
 const TechStack = () => {
   return (
     <>
-      <div className="container tech-stack-container">
-        <SvgIcon />
-        <h1 className="heading">Tech Stack</h1>
-      </div>
-      <div className="icon-container container">
-        <img alt="C" src={C}></img>
-        <img alt="C++" src={Cplusplus}></img>
-        <img alt="Html" src={Html}></img>
-        <img alt="CSS" src={CSS}></img>
-        <img alt="Bootstrap" src={BootStrap}></img>
-        <img alt="TailWindCSS" src={TailwindCss}></img>
-        <img alt="Javascript" src={javascript}></img>
-        <img alt="ReactJs" src={ReactJs}></img>
-        <img alt="Redux" src={Redux}></img>
-        <img alt="Git" src={Git}></img>
-        <img alt="Github" src={Github}></img>
-        <img alt="Node" src={Node}></img>
-        <img alt="Express" src={Express}></img>
-        <img alt="Postgres" src={Postgres}></img>
-        <img alt="MySql" src={MySql}></img>
-        <img alt="Mongodb" src={Mongodb}></img>
-        <img alt="Markdown" src={Markdown}></img>
-        <img alt="Postman" src={Postman}></img>
+      <div className="element">
+        <div className="container tech-stack-container ">
+          <img alt="Tech1" src={Tech1}></img>
+          <h1>Tech Stack</h1>
+        </div>
+        <div className="icon-container container">
+          <img alt="C" src={C}></img>
+          <img alt="C++" src={Cplusplus}></img>
+          <img alt="Html" src={Html}></img>
+          <img alt="CSS" src={CSS}></img>
+          <img alt="Bootstrap" src={BootStrap}></img>
+          <img alt="TailWindCSS" src={TailwindCss}></img>
+          <img alt="Javascript" src={javascript}></img>
+          <img alt="ReactJs" src={ReactJs}></img>
+          <img alt="Redux" src={Redux}></img>
+          <img alt="Git" src={Git}></img>
+          <img alt="Github" src={Github}></img>
+          <img alt="Node" src={Node}></img>
+          <img alt="Express" src={Express}></img>
+          <img alt="Postgres" src={Postgres}></img>
+          <img alt="MySql" src={MySql}></img>
+          <img alt="Mongodb" src={Mongodb}></img>
+          <img alt="Markdown" src={Markdown}></img>
+          <img alt="Postman" src={Postman}></img>
+        </div>
       </div>
     </>
   );

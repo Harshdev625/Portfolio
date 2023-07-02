@@ -3,27 +3,25 @@
   align-items: center;
 }
 
-.heading {
-  margin-top: 20px
-}
-
 .icon-container {
-  width: 75%;
   height: auto;
   /* background-color: rgba(54, 236, 21, 0.315); */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-gap: 10px;
+  grid-gap: 1em;
   justify-items: center;
   margin: auto;
 }
 
 .icon-container img {
   padding: 10px;
-  ;
   width: auto;
   height: auto;
   background-color: white;
+}
+
+.element{
+  margin:5em;
 }
 
 @media (max-width: 768px) {
