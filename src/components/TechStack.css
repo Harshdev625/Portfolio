@@ -5,7 +5,6 @@
 
 .icon-container {
   height: auto;
-  /* background-color: rgba(54, 236, 21, 0.315); */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-gap: 1em;

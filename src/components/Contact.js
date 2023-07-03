@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
       <h3 className="text-center">Let's get in touch</h3>
-      <form className="container">
+      <form className="container" id="contact">
         <div className="mb-3">
           <label htmlFor="name" className="form-label">
             Name
@@ -29,7 +29,7 @@ const Contact = () => {
           <input type="text" className="form-control" id="message" />
         </div>
         <button type="submit" className="btn btn-primary grow">
-          Send
+        <a href="mailto:devh9933@gmail.com">Send email</a>
         </button>
       </form>
       </>

@@ -8,17 +8,17 @@ const GetInTouch = () => {
   return (
     <div className="social-icon-container shift">
       <div>
-      <a href="https://github.com/Harshdev625">
-        <img  className="social-icon" alt="Github" src={Github}></img>
+      <a href="https://github.com/Harshdev625" target="_blank" rel="noreferrer">
+        <img  className="social-icon grow" alt="Github" src={Github}></img>
       </a>
-      <a href="https://www.linkedin.com/in/harsh-dev-537260233/">
-        <img  className="social-icon" alt="LinkedIn" src={LinkedIn}></img>
+      <a href="https://www.linkedin.com/in/harsh-dev-537260233/" target="_blank" rel="noreferrer">
+        <img  className="social-icon grow" alt="LinkedIn" src={LinkedIn}></img>
       </a>
-      <a href="https://www.instagram.com/harshdev625/">
-        <img className="social-icon" alt="Instagram" src={Instagram}></img>
+      <a href="https://www.instagram.com/harshdev625/" target="_blank" rel="noreferrer">
+        <img className="social-icon grow" alt="Instagram" src={Instagram}></img>
       </a>
-      <a href="https://www.facebook.com/harshdev625">
-        <img  className="social-icon" alt="Mail" src={Facebook}></img>
+      <a href="https://www.facebook.com/harshdev625" target="_blank" rel="noreferrer">
+        <img  className="social-icon grow" alt="Mail" src={Facebook}></img>
       </a>
       </div>
     </div>

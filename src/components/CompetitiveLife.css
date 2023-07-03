@@ -1,0 +1,8 @@
+.boundary{
+    margin-left: 10px;
+}
+.shifting{
+    top: 15em;
+    position:fixed;
+    border-left:10px;
+}
