@@ -18,16 +18,17 @@ import Markdown from "../Image/MarkDown.png";
 import MySql from "../Image/mysql.png";
 import Express from "../Image/express.png";
 import Tech1 from "../Image/Tech1.png";
+import ThunderClint from "../Image/Thunder Clint.png"
 import "./TechStack.css";
 const TechStack = () => {
   return (
     <>
-      <div className="element" id="skills">
-        <div className="container tech-stack-container ">
+      <div className="container">
+        <div className="stack-container">
           <img alt="Tech1" src={Tech1}></img>
           <h1>Tech Stack</h1>
         </div>
-        <div className="icon-container container">
+        <div className="icon-container">
           <img alt="C" src={C}></img>
           <img alt="C++" src={Cplusplus}></img>
           <img alt="Html" src={Html}></img>
@@ -44,8 +45,9 @@ const TechStack = () => {
           <img alt="Postgres" src={Postgres}></img>
           <img alt="MySql" src={MySql}></img>
           <img alt="Mongodb" src={Mongodb}></img>
-          <img alt="Markdown" src={Markdown}></img>
           <img alt="Postman" src={Postman}></img>
+          <img alt="ThunderClint" src={ThunderClint}></img>
+          <img alt="Markdown" src={Markdown}></img>
         </div>
       </div>
     </>

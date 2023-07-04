@@ -5,18 +5,19 @@ import "./Home.css";
 const Home = () => {
   return (
     <>
+    <div className="container">
       <div className="brief-detail" id="Home">
         <h5 className="textstyle1">Hi, I'am</h5>
         <h1 className="my-name">Harsh Dev,</h1>
         <h1>
           I'm a
-          <Typewriter
+          <p style={{color:"aqua"}}><Typewriter 
             options={{
               strings: ["Student", "Web Developer", "Competitive Programmer"],
               autoStart: true,
               loop: true,
             }}
-          />
+          /></p>
         </h1>
         <p className="textsytle2">
           I am a third-year student pursuing an Integrated Postgraduate (B.Tech
@@ -30,6 +31,7 @@ const Home = () => {
             Download Resume
           </a>
         </button>
+      </div>
       </div>
     </>
   );

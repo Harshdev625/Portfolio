@@ -1,14 +1,11 @@
 .brief-detail{
     margin-top:10px;
-    height:100%;
-    width:75vw;
-    margin-left: 20vw;
     display:flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
 }
 .my-name{
-    font-size:6em;
+    font-size:80px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -17,8 +14,6 @@
 }
 
 .textsytle2{
-    width:40vw;
-    margin:20px 0px;
     font-size: large;
     font-family: 'Montserrat', sans-serif;
 }
