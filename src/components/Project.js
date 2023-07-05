@@ -7,8 +7,8 @@ import CSS from "../Image/CSS.png";
 import Projects from "../Image/Projects.png";
 const Project = () => {
   return (
-    <div className="container">
-      <div className="stack-container" id="project">
+    <div className="container" id="project">
+      <div className="stack-container" >
         <img className="" src={Projects} alt="Projects" />
         <h1>Project</h1>
       </div>

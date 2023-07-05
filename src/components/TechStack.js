@@ -23,7 +23,7 @@ import "./TechStack.css";
 const TechStack = () => {
   return (
     <>
-      <div className="container">
+      <div className="container" id="skills">
         <div className="stack-container">
           <img alt="Tech1" src={Tech1}></img>
           <h1>Tech Stack</h1>

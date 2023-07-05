@@ -4,9 +4,8 @@ import hacker from "../Image/hacker.webp";
 import "./Home.css";
 const Home = () => {
   return (
-    <>
-    <div className="container">
-      <div className="brief-detail" id="Home">
+    <div className="container" id="home">
+      <div className="brief-detail" >
         <h5 className="textstyle1">Hi, I'am</h5>
         <h1 className="my-name">Harsh Dev,</h1>
         <h1>
@@ -33,7 +32,6 @@ const Home = () => {
         </button>
       </div>
       </div>
-    </>
   );
 };
 

@@ -1,9 +1,15 @@
 import React from "react";
 
 export default function Navbar() {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
-    <nav className="Navbar-Color navbar navbar-expand-lg bg-body-tertiary ">
-      <div className=" container-fluid">
+    <nav className="Navbar-Color navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div className="container-fluid">
         <button
           className="navbar-toggler"
           type="button"
@@ -18,24 +24,24 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link " aria-current="page" href="#home">
+              <button className="nav-link" onClick={() => scrollToSection('home')}>
                 Home
-              </a>
+              </button>
             </li>
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#skills">
+              <button className="nav-link" onClick={() => scrollToSection('skills')}>
                 Skills
-              </a>
+              </button>
             </li>
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#project">
+              <button className="nav-link" onClick={() => scrollToSection('project')}>
                 Project
-              </a>
+              </button>
             </li>
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#contact">
+              <button className="nav-link" onClick={() => scrollToSection('contact')}>
                 Contact
-              </a>
+              </button>
             </li>
           </ul>
         </div>
