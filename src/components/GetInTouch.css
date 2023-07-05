@@ -1,10 +1,11 @@
-.shift {
-  position: absolute;
-  bottom: 7em;
-  left:0;
+.get-in-touch {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: 2em;
 }
-@media (max-width: 576px) {
-  .social-icon{
-    height:10px;
-  }
+
+.get-in-touch-container {
+  display: flex;
+  gap: 1em;
 }

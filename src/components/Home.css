@@ -1,37 +1,51 @@
-.brief-detail{
-    margin-top:10px;
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-.my-name{
-    font-size:80px;
-    font-family: 'Times New Roman', Times, serif;
+.brief-detail {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
-.textstyle1{
-    font-family: 'Roboto', sans-serif;
+.my-name {
+  font-size: 80px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.textsytle2{
-    font-size: large;
-    font-family: 'Montserrat', sans-serif;
+.textstyle1 {
+  font-family: 'Roboto', sans-serif;
 }
 
-.Resume-link{
-    text-decoration: none;
-    font-size: 1em;
-    color:white;
-    padding:0px;
-    word-spacing: 5px;
+.textsytle2 {
+  font-family: 'Source Serif 4', serif;
+  font-weight: 500;
 }
 
-.Resume-button{
-    background-color: black;
-    height:3em;
-    border: 2px solid white;
-    width: 9em;
+.Resume-link {
+  text-decoration: none;
+  font-size: 1em;
+  color: white;
+  padding: 0px;
+  word-spacing: 5px;
 }
 
+.Resume-button {
+  background-color: black;
+  height: 3em;
+  border: 2px solid white;
+  width: 9em;
+}
 
-  
+@media (max-width: 768px) {
+  .my-name {
+    font-size: 48px;
+  }
+
+  .textstyle1 {
+    font-size: 20px;
+  }
+
+  .textsytle2 {
+    font-size:medium;
+  font-weight: 600;
+
+  }
+}

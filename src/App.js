@@ -12,6 +12,7 @@ import CompetitiveLife from './components/CompetitiveLife';
 function App() {
   const [vantaEffect, setVantaEffect] = useState(null)
   const myRef = useRef(null)
+
   useEffect(() => {
     if (!vantaEffect) {
       setVantaEffect(NET({
@@ -23,6 +24,7 @@ function App() {
         scaleMobile: 1.00,
       }))
     }
+
     return () => {
       if (vantaEffect) vantaEffect.destroy()
     }
@@ -30,7 +32,8 @@ function App() {
 
   return (
     <>
-      <div className="Textcolor App"  ref={myRef}>
+      <div className="App Textcolor">
+        <div className="vanta-container" ref={myRef}></div>
         <CompetitiveLife/>
         <Navbar />
         <Home />

@@ -8,3 +8,11 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
+.vanta-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}

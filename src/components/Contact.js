@@ -11,13 +11,13 @@ const Contact = () => {
         <form className="container Contact-box" id="contact">
           <div className="mb-3">
             <label htmlFor="name" className="form-label">
-              Name
+              <h5>Name</h5>
             </label>
             <input type="text" className="form-control" id="name" />
           </div>
           <div className="mb-3">
             <label htmlFor="email" className="form-label">
-              Email address
+              <h5>Email address</h5>
             </label>
             <input
               type="email"
@@ -28,7 +28,7 @@ const Contact = () => {
           </div>
           <div className="mb-3">
             <label htmlFor="message" className="form-label">
-              Message
+              <h5>Message</h5>
             </label>
             <textarea className="form-control no-resize" id="message" rows="4" />
           </div>
