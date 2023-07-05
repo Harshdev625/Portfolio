@@ -33,11 +33,11 @@ function App() {
       <div className="Textcolor App"  ref={myRef}>
         <CompetitiveLife/>
         <Navbar />
-        <GetInTouch/>
         <Home />
         <TechStack />
         <Project/>
         <Contact />
+        <GetInTouch/>
       </div>
     </>
   );

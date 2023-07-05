@@ -6,7 +6,7 @@ import Facebook from "../Image/Facebook.png";
 import "./GetInTouch.css";
 const GetInTouch = () => {
   return (
-    <div className="social-icon-container shift">
+    <div className="shift">
       <div>
       <a href="https://github.com/Harshdev625" target="_blank" rel="noreferrer">
         <img  className="social-icon grow" alt="Github" src={Github}></img>
