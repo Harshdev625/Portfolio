@@ -11,3 +11,269 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.project-heading{
+  color:rgb(1, 225, 255);
+  font-weight: 500;
+}
+.shifting {
+  top: 4em;
+  right: 0;
+  position: absolute;
+}
+
+.social-icon {
+  display: block;
+  border-style: solid;
+  background-color: #fff;
+  border-color: aquamarine;
+  height: 48px;
+  margin: 10px;
+  padding: 0.2em;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+
+  .social-icon {
+    height: 36px;
+    margin: 5px;
+  }
+}
+
+.stack-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin: 20px;
+}
+
+.icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+
+}
+
+.icon-container img {
+  padding: 5px;
+  background-color: white;
+  border: 2px solid aqua;
+  margin: 7.5px;
+
+}
+
+.icon-container img:hover {
+  -webkit-animation: spin 4s linear;
+  -moz-animation: spin 4s linear;
+  animation: spin 4s linear;
+}
+
+@media (max-width: 768px) {
+  .icon-container img {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+@media (max-width: 576px) {
+  .icon-container img {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.project-handler {
+  margin: 40px 0px;
+  background-color: rgba(255, 255, 255, 0.315);
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.project-Img {
+  display: flex;
+  height: 50%;
+  width: 75%;
+  margin-top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7.5px;
+}
+
+.project-icon-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.project-icon-container img {
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: 2px solid aqua;
+  margin: 5px;
+}
+
+.project-detail {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.project-brief {
+  width: 75%;
+  margin-bottom: 5px;
+  margin-top: -10px;
+  ;
+}
+
+.website-display {
+  display: inline;
+  height: 5vh;
+  cursor: pointer;
+  margin: 2px 5px;
+}
+
+.brief-detail {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.my-name {
+  font-size: 80px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.textstyle1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.textsytle2 {
+  font-family: 'Source Serif 4', serif;
+  font-weight: 500;
+}
+
+.Resume-link {
+  text-decoration: none;
+  font-size: 1em;
+  color: white;
+  padding: 0px;
+  word-spacing: 5px;
+}
+
+.Resume-button {
+  background-color: black;
+  height: 3em;
+  border: 2px solid white;
+  width: 9em;
+}
+
+@media (max-width: 768px) {
+  .my-name {
+    font-size: 48px;
+  }
+
+  .textstyle1 {
+    font-size: 20px;
+  }
+
+  .textsytle2 {
+    font-size: medium;
+    font-weight: 600;
+
+  }
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.2);
+}
+
+.Project-Button {
+  background-color: black;
+  height: auto;
+  border: 2px solid white;
+  width: auto;
+  margin: 10px 10px;
+}
+
+.Project-link {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: white;
+}
+
+.Send-Button {
+  background-color: black;
+  height: 3em;
+  border: 2px solid white;
+  width: 9em;
+  margin: 10px auto;
+}
+
+.Send-link {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+}
+
+.Contact-box {
+  width: 65vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.no-resize {
+  resize: none;
+}
+
+.get-in-touch {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: 2em;
+}
+
+.get-in-touch-container {
+  display: flex;
+  gap: 1em;
+}

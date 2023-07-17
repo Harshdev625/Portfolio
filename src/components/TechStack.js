@@ -20,7 +20,6 @@ import Express from "../Image/express.png";
 import Tech1 from "../Image/Tech1.png";
 import ThunderClint from "../Image/Thunder Clint.png"
 import Vercel from "../Image/Vercel.png"
-import "./TechStack.css";
 const TechStack = () => {
   return (
     <>

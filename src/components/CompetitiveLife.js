@@ -1,5 +1,4 @@
 import React from 'react';
-import './CompetitiveLife.css';
 import Leetcode from "../Image/leetcode.png";
 import Hackerrank from "../Image/HackerRank.png";
 import Codechef from "../Image/codechef.png";

@@ -1,7 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import hacker from "../Image/hacker.webp";
-import "./Home.css";
 const Home = () => {
   return (
     <div className="container" id="home">

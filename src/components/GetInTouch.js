@@ -3,7 +3,6 @@ import Github from "../Image/github.png";
 import LinkedIn from "../Image/LinkedIn.png";
 import Instagram from "../Image/Instagram.png";
 import Facebook from "../Image/Facebook.png";
-import "./GetInTouch.css";
 
 const GetInTouch = () => {
   return (
