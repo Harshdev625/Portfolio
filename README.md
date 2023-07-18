@@ -4,6 +4,8 @@ This is my portfolio website build with <a href='https://reactjs.org' target='_b
 </p>
 <img width="959" alt="Portfolio" src="https://github.com/Harshdev625/Portfolio/assets/98793412/1641af47-f6b0-4baf-bf3b-f066c43aeddd">
 
+<br/>
+
 # Installation
 
 To run the web application locally, you need to install Node.js on your device. Once installed, follow these steps:
