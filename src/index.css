@@ -11,10 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.project-heading{
-  color:rgb(1, 225, 255);
+
+.project-heading {
+  color: rgb(1, 225, 255);
   font-weight: 500;
 }
+
 .shifting {
   top: 4em;
   right: 0;
@@ -200,7 +202,7 @@ code {
   background-color: black;
   height: 3em;
   border: 2px solid white;
-  width: 9em;
+  width: 12em;
 }
 
 @media (max-width: 768px) {

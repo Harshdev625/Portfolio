@@ -1,7 +1,8 @@
-import React from "react";
+import React,{useState} from "react";
 import Typewriter from "typewriter-effect";
-import hacker from "../Image/hacker.webp";
+import Resume from '../Resume/Harsh Dev.pdf'
 const Home = () => {
+  const [download, setdownload] = useState(false)
   return (
     <div className="container" id="home">
       <div className="brief-detail">
@@ -24,9 +25,9 @@ const Home = () => {
           include Full Stack Web Development, Algorithms, Problem Solving, and
           competitive programming.
         </h4>
-        <button className="Resume-button">
-          <a className="Resume-link" href={hacker} download>
-            Download Resume
+        <button className="Resume-button" onClick={()=>{setdownload(true)}}>
+          <a className="Resume-link" href={Resume} download>
+            {download ? 'Thanks For Your Interest' : 'Download Resume' }
           </a>
         </button>
       </div>
