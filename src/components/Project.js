@@ -1,7 +1,6 @@
 import React from "react";
 import Html from "../Image/HTML.png";
 import Todolist from "../Image/TodoList1.png";
-import NewsMonkey from "../Image/NewsMonkey.png";
 import BootStrap from "../Image/bootstrap.png";
 import ReactJs from "../Image/React.png";
 import javascript from "../Image/javascript.png";
@@ -13,6 +12,7 @@ import Mongodb from "../Image/mongodb.png";
 import Express from "../Image/express.png";
 import FRB from "../Image/Face Recognition Brain.mp4";
 import PG from "../Image/Password Generator.png";
+import NewsSphere from "../Image/NewsSphere.mp4"
 const Project = () => {
   return (
     <>
@@ -77,19 +77,15 @@ const Project = () => {
         </div>
         <div className="project-handler">
           <div className="conatiner">
-            <img className="project-Img" src={NewsMonkey} alt="NewsMonkey" />
+          <video className="project-Img" src={NewsSphere} controls></video>
           </div>
           <div className="project-detail">
             <div>
-              <h3 className="stack-container project-heading">NewsMonkey</h3>
+              <h3 className="stack-container project-heading">NewsSphere</h3>
             </div>
             <div className="project-brief">
               <h5>
-                The NewsMonkey website is a comprehensive online platform that
-                delivers the latest news and information to users from across
-                the globe. With its user-friendly interface and extensive
-                coverage of various topics, the website aims to keep individuals
-                well-informed and engaged with current events.
+              The NewsSphere website is a comprehensive platform that delivers the latest news and information to users from across the globe. With its user-friendly interface and extensive coverage of various topics, the website aims to keep individuals well-informed and engaged in current events. The goal of the project was to create a web application that enables users to browse, read, save, and manage news articles from various categories.
               </h5>
             </div>
             <div>
@@ -100,13 +96,15 @@ const Project = () => {
                 <img className="grow" alt="javascript" src={javascript}></img>
                 <img className="grow" alt="BootStrap" src={BootStrap}></img>
                 <img className="grow" alt="ReactJs" src={ReactJs}></img>
-                <img className="grow" alt="Vercel" src={Vercel}></img>
+                <img className="grow" alt="Node" src={Node}></img>
+                <img className="grow" alt="Express" src={Express}></img>
+                <img className="grow" alt="Mongodb" src={Mongodb}></img>
               </div>
               <div className="get-in-touch">
                 <button className="Project-Button grow">
                   <a
                     className="Project-link"
-                    href="https://github.com/Harshdev625/newsmonkey"
+                    href="https://github.com/Harshdev625/NewsSphere"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -146,7 +144,7 @@ const Project = () => {
                 <button className="Project-Button grow">
                   <a
                     className="Project-link"
-                    href="https://harshdev625.github.io/todolist/"
+                    href="https://todolist-nine-nu.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
